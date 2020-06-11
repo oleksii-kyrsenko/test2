@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          test2 deploy again
+          New
         </p>
         <a
           className="App-link"
