@@ -13,7 +13,7 @@ import { useForm } from 'react-hook-form';
 import { useStyles } from '../styles';
 import { IAuthFormData } from '../interfaces/authFormData';
 import { registrationValidationSchema } from '../validationSchemas/registrationValidationSchema';
-import { FormHelperMessage } from '../../../components/FormHelperMessage';
+import { FormHelperMessage } from '../../../components/Forms/FormHelperMessage';
 import { NavLink } from 'react-router-dom';
 
 export const RegistrationPage: FC = () => {

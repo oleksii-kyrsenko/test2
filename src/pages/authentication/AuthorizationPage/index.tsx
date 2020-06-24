@@ -14,7 +14,7 @@ import { useForm } from 'react-hook-form';
 import { useStyles } from '../styles';
 import { IAuthFormData } from '../interfaces/authFormData';
 import { authorizationValidationSchema } from '../validationSchemas/authorizationValidationSchema';
-import { FormHelperMessage } from '../../../components/FormHelperMessage';
+import { FormHelperMessage } from '../../../components/Forms/FormHelperMessage';
 
 export const AuthorizationPage: FC = () => {
   const classes = useStyles();
