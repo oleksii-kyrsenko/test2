@@ -13,10 +13,10 @@ import { useForm } from 'react-hook-form';
 import { useStyles } from '../styles';
 import { IAuthFormData } from '../interfaces/authFormData';
 import { registrationValidationSchema } from '../validationSchemas/registrationValidationSchema';
-import { FormHelperMessage } from '../../../components/Forms/FormHelperMessage';
 import { NavLink } from 'react-router-dom';
+import { FormHelperMessage } from '../../..';
 
-export const RegistrationPage: FC = () => {
+export const SignUp: FC = () => {
   const classes = useStyles();
   const [loading, setLoading] = React.useState<boolean>(false);
 
@@ -147,7 +147,7 @@ export const RegistrationPage: FC = () => {
                   href='#'
                   variant='body2'
                   component={NavLink}
-                  to='/test2/authorization'>
+                  to='/authorization'>
                   Маєте обліковий запис? Авторизуватися
                 </Link>
               )}

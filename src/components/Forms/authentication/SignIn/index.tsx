@@ -14,9 +14,9 @@ import { useForm } from 'react-hook-form';
 import { useStyles } from '../styles';
 import { IAuthFormData } from '../interfaces/authFormData';
 import { authorizationValidationSchema } from '../validationSchemas/authorizationValidationSchema';
-import { FormHelperMessage } from '../../../components/Forms/FormHelperMessage';
+import { FormHelperMessage } from '../../..';
 
-export const AuthorizationPage: FC = () => {
+export const SignIn: FC = () => {
   const classes = useStyles();
   const [loading, setLoading] = React.useState<boolean>(false);
 
@@ -125,7 +125,7 @@ export const AuthorizationPage: FC = () => {
                   href='#'
                   variant='body2'
                   component={NavLink}
-                  to='/test2/registration'>
+                  to='/registration'>
                   Не маєте облікового запису? Зареєструватися
                 </Link>
               )}

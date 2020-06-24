@@ -17,6 +17,6 @@ export const PrivateRoute: FC<TPrivateRouteProps> = ({
   return isAuth ? (
     <Route {...rest} component={component} />
   ) : (
-    <Redirect to='/test2/authorization' />
+    <Redirect to='/authorization' />
   );
 };
