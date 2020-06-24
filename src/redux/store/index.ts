@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import createSagaMiddleware from 'redux-saga';
-import { rootReducer } from './reducers';
-import { rootSaga } from './sagas';
+import { rootReducer } from './rootReducer';
+import { rootSaga } from './rootSaga';
 
 declare global {
   // tslint:disable-next-line: interface-name
